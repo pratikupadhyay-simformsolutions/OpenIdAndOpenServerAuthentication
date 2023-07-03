@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YI2bdOciodqxoEVJR04VfzzCXoI8Qyfus4hjKmO774Q=",
+  "Source": "IdentityServer4_Demo.WebAPI",
+  "BasePath": "_content/IdentityServer4_Demo.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

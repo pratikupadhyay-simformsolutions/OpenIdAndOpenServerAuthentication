@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "uspqit/UGd+kT9WgSXxtrLxbrwzLPmjaiXMHo3FShYgq4zS2hKS6Sjyvb4hG79b3h1ytIp2LFVHVYK2C70GKfw==",
+  "success": true,
+  "projectFilePath": "C:\\Pratik\\Authentication\\OpenIdAndOpenServer\\IdentityServer4_Demo.WebAPI.Client\\IdentityServer4_Demo.WebAPI.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pratik.Upadhyay\\.nuget\\packages\\identitymodel\\6.1.0\\identitymodel.6.1.0.nupkg.sha512",
+    "C:\\Users\\Pratik.Upadhyay\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "sbo9ZxjlNv0lTWQuR/Wh+8DrYuJrliBO/5UbodGRULk18W9Fy/6KyctYvGN/oNa7Na8XoUl8U3ro8rkiYZLCpw==",
+  "success": true,
+  "projectFilePath": "C:\\Pratik\\Authentication\\OpenIdAndOpenServer\\IdentityServer4_Demo.Client\\IdentityServer4_Demo.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pratik.Upadhyay\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\7.0.8\\microsoft.aspnetcore.authentication.openidconnect.7.0.8.nupkg.sha512",
+    "C:\\Users\\Pratik.Upadhyay\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Pratik.Upadhyay\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.1\\microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "C:\\Users\\Pratik.Upadhyay\\.nuget\\packages\\microsoft.identitymodel.logging\\6.15.1\\microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "C:\\Users\\Pratik.Upadhyay\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.15.1\\microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "C:\\Users\\Pratik.Upadhyay\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "C:\\Users\\Pratik.Upadhyay\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "C:\\Users\\Pratik.Upadhyay\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.15.1\\system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

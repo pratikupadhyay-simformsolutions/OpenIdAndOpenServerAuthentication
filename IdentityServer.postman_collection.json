@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "2dee2022-b321-4512-b0bd-055a8176546a",
+		"name": "IdentityServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15619975"
+	},
+	"item": [
+		{
+			"name": "IdentityServer4_Demo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "weatherApi.read",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "weatherApi",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "IdentityServer",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:7161/connect/token",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7161",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IdentityServer4_Demo.WebAPI",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjJCMkFDQzcyNUJBNUI3NEEwQzY1MzI1RUYxQkExQkUwIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2ODgzOTI2OTksImV4cCI6MTY4ODM5NjI5OSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzE2MSIsImF1ZCI6IndlYXRoZXJBcGkiLCJjbGllbnRfaWQiOiJ3ZWF0aGVyQXBpIiwianRpIjoiOUM0RUIzNUY1ODhBMzJCNjFBNkE2OEYyMTE2MzlENzQiLCJpYXQiOjE2ODgzOTI2OTksInNjb3BlIjpbIndlYXRoZXJBcGkucmVhZCJdfQ.DxRUfLH45zC3TA6-uv4wicfcPW28__V2KnNGilM3fGIYFvSzmoz_Q-JKCCA6VdVtGXyivR37m4RnlIMCzoYGN2XK8te7qWT0TXR5N38lKIT0RI5Q6BsATPGvyG5lDjmSG_t41z8D5FPUkFSFdvmLJsHkNPGQq5RlZsB3zn-sf42mUPncxcUukCUAtfpGqxaYXXcVDiupKA59BHmF7DgwK2bGdYxBO9WY3EmburkGCtooYVaO9mzma3MoPBmzavM3VILQj9uBfmjUKuF-uy52uG6RSkDGG-dXAsFqGEeN1-xspKdYxix56CXfRZs_6yK_wzbotOmbytqENZRCm-Zodg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjJCMkFDQzcyNUJBNUI3NEEwQzY1MzI1RUYxQkExQkUwIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2ODgzOTI2OTksImV4cCI6MTY4ODM5NjI5OSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzE2MSIsImF1ZCI6IndlYXRoZXJBcGkiLCJjbGllbnRfaWQiOiJ3ZWF0aGVyQXBpIiwianRpIjoiOUM0RUIzNUY1ODhBMzJCNjFBNkE2OEYyMTE2MzlENzQiLCJpYXQiOjE2ODgzOTI2OTksInNjb3BlIjpbIndlYXRoZXJBcGkucmVhZCJdfQ.DxRUfLH45zC3TA6-uv4wicfcPW28__V2KnNGilM3fGIYFvSzmoz_Q-JKCCA6VdVtGXyivR37m4RnlIMCzoYGN2XK8te7qWT0TXR5N38lKIT0RI5Q6BsATPGvyG5lDjmSG_t41z8D5FPUkFSFdvmLJsHkNPGQq5RlZsB3zn-sf42mUPncxcUukCUAtfpGqxaYXXcVDiupKA59BHmF7DgwK2bGdYxBO9WY3EmburkGCtooYVaO9mzma3MoPBmzavM3VILQj9uBfmjUKuF-uy52uG6RSkDGG-dXAsFqGEeN1-xspKdYxix56CXfRZs_6yK_wzbotOmbytqENZRCm-Zodg",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44394/WeatherForecast",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44394",
+					"path": [
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IdentityServer4_Demo.WebAPI.Client",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44360/api/Weather",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Weather"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
